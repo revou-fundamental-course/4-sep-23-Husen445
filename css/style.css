@@ -1,0 +1,134 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: red;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerK{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 3px solid black;
+}
+
+#Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#L{
+    background-color: red;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+#Rumus{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+label{
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+input{
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh; 
+  }
+  
+.center-button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+input:focus{
+    border-color:black;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.InputLuas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.Hasil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;  
+}
+
+.HasilLuasPersegi{
+    padding: 10px 16px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.InputKeliling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.HasilKelilingPersegi{
+    padding: 10px 16px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

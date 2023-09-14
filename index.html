@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Kalkulator Perhitungan Bangun Datar Persegi</h1>
+    </header>
+    <div class="containerK">
+        <div class="item">
+            <div id="L">
+                <h2>Luas Persegi</h2>
+            </div>
+            <div id="Image">
+                <img src="https://rpp.co.id/wp-content/uploads/2021/05/persegi.jpg" width="300" height="225">
+            </div>
+            <div id="Rumus">
+                <h2>Rumus Luas Persegi : S x S</h2>
+            </div>
+            <section class="InputLuas">
+                <label for="inputField1">Sisi Persegi</label>
+                <input type="number" id="inputField1" placeholder="Masukkan Sisi">
+            </section>
+            <section class="Hasil">
+                <label for="inputField1">Hasil</label>
+                <div class="HasilLuasPersegi">
+                <p>
+                <span id="hasilluas"></span>
+                </p>
+                </div>
+            </section>
+            <div class="container">
+                <button class="center-button" onclick="hitungLuas()" type="button">Hitung</button>
+                <button class="center-button " onclick="HapusLuas()" type="button">Reset</button>
+            </div>
+        </div>
+        <div class="item">
+            <div id="L">
+                <h2>Keliling Persegi</h2>
+            </div>
+            <div id="Image">
+                <img src="https://rpp.co.id/wp-content/uploads/2021/05/persegi.jpg" width="300" height="225">
+            </div>
+            <div id="Rumus">
+                <h2>Rumus Keliling Persegi : 4 x S</h2>
+            </div>
+            <section class="InputKeliling">
+                <label for="inputField2">Sisi Persegi</label>
+                <input type="number" id="inputField2" placeholder="Masukkan Sisi">
+            </section>
+            <section class="Hasil">
+                <label for="inputField2">Hasil</label>
+                <div class="HasilKelilingPersegi">
+                <p>
+                <span id="hasilkeliling"></span>
+                </p>
+                </div>
+            </section>
+            <div class="container">
+                <button class="center-button" onclick="hitungKeliling()" type="button">Hitung</button>
+                <button class="center-button " onclick="HapusKeliling()" type="button">Reset</button>
+            </div>
+        </div>
+      </div> 
+</body>
+<footer>
+    <h3>Mini Project Revou Sofware Engineering by Al Husain</h3>
+</footer>
+
+</html>
